@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <center>
+      <u><h1>Create Account</h1></u><br />
+      <form action="./Nov_7.1.html" target="_blank">
+        <img src="../images/amazon.png" height="40" /><br /><br />
+        <table>
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="Fname" autofocus /></td>
+          </tr>
+
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="Lname" /></td>
+          </tr>
+
+          <tr>
+            <td>Password:</td>
+            <td>
+              <input
+                type="Password"
+                name="Password"
+                placeholder="At least 10 characters"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Phone:</td>
+            <td><input type="tel" name="Phone" pattern="[0-9]{10}" /></td>
+          </tr>
+
+          <tr>
+            <td>Email:</td>
+            <td><input type="email" name="Email" required /></td>
+          </tr>
+
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="male" />Male
+              <input type="radio" name="male" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="DOB" required /></td>
+          </tr>
+
+          <tr>
+            <td>Location:</td>
+            <td>
+              <input list="Location" name="Location" />
+              <datalist id="Location">
+                <option value="Hyderabad"></option>
+                <option value="Guntur"></option>
+                <option value="Bapatla"></option>
+              </datalist>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Country:</td>
+            <td>
+              <select name="Country">
+                <option>India</option>
+                <option>China</option>
+                <option>USA</option>
+                <option>UK</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>About:</td>
+            <td><textarea></textarea></td>
+          </tr>
+        </table>
+        <br /><br />
+        <a href="./Nov_7.1.html">Already Registered? Login here</a> <br /><br />
+        <input type="Submit" value="Create" class="btn" />
+      </form>
+    </center>
+  </body>
+</html>
