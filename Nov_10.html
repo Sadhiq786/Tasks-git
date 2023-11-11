@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding css to table tag</title>
+    <link rel="stylesheet" href="../css/Nov_10.css">
+</head>
+<body>
+    <h1>ICC Cricket World Cup 2023 - Points Table</h1>
+    
+    <table class="one">
+        <tr>
+            <th>Teams</th>
+            <th>Played</th>
+            <th>Won</th>
+            <th>Lost</th>
+            <th>Points</th>
+            <th>Net run rate</th>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172115/ind.jpg">&nbsp India</td>
+            <td>7</td>
+            <td>7</td>
+            <td>0</td>
+            <td>14</td>
+            <td>+2.102</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172126/rsa.jpg">&nbsp South Africa</td>
+            <td>7</td>
+            <td>6</td>
+            <td>1</td>
+            <td>12</td>
+            <td>+2.290</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172117/aus.jpg">&nbsp Australia</td>
+            <td>6</td>
+            <td>4</td>
+            <td>2</td>
+            <td>8</td>
+            <td>+0.970</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172128/nz.jpg" >&nbsp New Zealand</td>
+            <td>7</td>
+            <td>4</td>
+            <td>3</td>
+            <td>8</td>
+            <td>+0.484</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172188/afg.jpg" >&nbsp Afghanistan </td>
+            <td>7</td>
+            <td>4</td>
+            <td>3</td>
+            <td>8</td>
+            <td>-0.330</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172116/pak.jpg" >&nbsp Pakistan </td>
+            <td>7</td>
+            <td>3</td>
+            <td>4</td>
+            <td>6</td>
+            <td>-0.024</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172119/sl.jpg" >&nbsp Sri Lanka </td>
+            <td>7</td>
+            <td>2</td>
+            <td>5</td>
+            <td>4</td>
+            <td>-1.162</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172138/ned.jpg" >&nbsp Netherlands</td>
+            <td>7</td>
+            <td>2</td>
+            <td>5</td>
+            <td>4</td>
+            <td>-1.398</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172120/ban.jpg" >&nbsp Bangladesh</td>
+            <td>7</td>
+            <td>1</td>
+            <td>6</td>
+            <td>2</td>
+            <td>-1.446</td>
+        </tr>
+
+        <tr>
+            <td><img src="https://m.cricbuzz.com/a/img/v1/16x12/i1/c172123/eng.jpg">&nbsp England</td>
+            <td>6</td>
+            <td>1</td>
+            <td>5</td>
+            <td>2</td>
+            <td>-1.652</td>
+        </tr>
+    </table>
+
+<br>
+ 
+<div class="Registration-form">
+    <h2>Registration form</h2>
+    <form>
+        <label>First Name:</label>
+        <input type="text" name="fname" id="fname"><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lname" id="lname"><br>
+
+        <label>Email:</label>
+        <input type="Email" name="email" id="email"><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" id="password" pattern="[0-9]{10}"><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">Female
+<br><br>
+        <label>Education:</label>
+        <select name="Education">
+            <option>M.Sc</option>
+            <option>B.Sc</option>
+        </select><br>
+
+        <label>Location:</label>
+        <input list="Location">
+        <datalist id="Location">
+            <option value="Hyderabad"></option>
+            <option value="Guntur"></option>
+            <option value="Bapatla"></option>
+        </datalist><br>
+
+        <input type="submit" value="Register" id="submit">
+
+    </form>
+</div>
+    
+</body>
+</html>
